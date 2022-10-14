@@ -2,7 +2,7 @@ Credit Risk Modeling in Python 2022
 
 Udemy course - by 365 Careers
 
-1. Explore Data
+<span style="color:yellow">1. Explore Data</span>
 +   convert string to numeric
 +   date, date difference
 +   dummy variables for Discrete Variables
@@ -15,7 +15,7 @@ Udemy course - by 365 Careers
         * discrete variable: use WoE to create subcategories for original variable. Group some subcategories that have similar WoE together 
         * continuous variable: cut all data points of a continuous variable into equal chunk. Calculate WoE for each chunk. Again, group those with similar WoE together
 
-2. PD model
+<span style="color:yellow">2. PD model</span>
 + Create PD model
     - use all discrete and continuous variables that we have preprocessed as independent variables. 
     - regress using Logistic Regression
@@ -35,14 +35,14 @@ Udemy course - by 365 Careers
     - Compute PD from Credit Score
     - Choose cut off point
 
-3. PD model monitoring
+<span style="color:yellow">3. PD model monitoring</span>
 + Population Stability Index (PSI)
     - Preprocess the data like in the workbook 1 "Explore Data", but for the new data
     - Compute Scorecard for the new data
 + PSI calculation
 + PSI interpretaion
 
-4. LGD & EAD model, Expected Loss
+<span style="color:yellow">4. LGD & EAD model, Expected Loss</span>
 + Data Prep: working on only defaulted customers
     - null value for those independent variables
     - Dependent variables
